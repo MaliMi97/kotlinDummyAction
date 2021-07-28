@@ -1,2 +1,2 @@
 #!/bin/sh -l
-./gradlew run
+java -jar build/libs/kotlinDummyAction-1.0-SNAPSHOT-all.jar
