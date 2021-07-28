@@ -1,6 +1,6 @@
 FROM openjdk:11
-COPY build/libs/kotlinDummyAction-1.0-SNAPSHOT-all.jar /come_on.jar
-ENTRYPOINT ["java", "-jar", "come_on.jar"]
+COPY comeon.jar /comeon.jar
+ENTRYPOINT ["java", "-jar", "comeon.jar"]
 
 
 #FROM openjdk:11
